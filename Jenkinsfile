@@ -22,6 +22,6 @@ pipeline {
                 sh 'docker push sofoniasm/numeric-app:""$GIT_COMMIT""'
          }
       }
-      
+      }
     }
 }
